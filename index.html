@@ -1,0 +1,18 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1> TV SHOWS LIST</h1>
+        <form method="POST" action="/">
+            <h2>Please enter a TV show: </h2>
+            <input type="text" name="tv_show1"> 
+            <input type="submit" value="Save the TV Show">
+            <h2>Please enter a TV show: </h2>     
+            <input type="text" name="tv_show2">            
+            <input type="submit" value="Delete the TV Show">
+        </form>
+        {% for i in range(num_tools) %}
+            <p></p>{{tv[i].new_tvshow}}</body></b> {{tv[i].alreadyListed}} <p></p>
+        {% end for %}
+    </body>
+</html>
